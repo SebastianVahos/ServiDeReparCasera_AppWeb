@@ -25,7 +25,6 @@ namespace Servicios.Models
         public string Nombre { get; set; }
         public string PaginaNavegar { get; set; }
         [JsonIgnore]
-
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<PerfilUsuario> PerfilUsuarios { get; set; }
     }

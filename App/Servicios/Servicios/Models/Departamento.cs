@@ -24,8 +24,8 @@ namespace Servicios.Models
         public int CodigoDepartamento { get; set; }
         public string Nombre { get; set; }
         public bool Estado { get; set; }
-        [JsonIgnore]
 
+        [JsonIgnore]
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Ciudad> Ciudads { get; set; }
     }
