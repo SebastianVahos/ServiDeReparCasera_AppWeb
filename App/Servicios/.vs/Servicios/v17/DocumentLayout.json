@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\vahos\\OneDrive\\Documentos\\ITM\\ITM - 6SEMESTRE\\APP Y SERVICIOS WEB\\Proyecto_Final\\App\\Servicios\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|c:\\users\\vahos\\onedrive\\documentos\\itm\\itm - 6semestre\\app y servicios web\\proyecto_final\\app\\servicios\\servicios\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|solutionrelative:servicios\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|c:\\users\\vahos\\onedrive\\documentos\\itm\\itm - 6semestre\\app y servicios web\\proyecto_final\\app\\servicios\\servicios\\clases\\clsusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|solutionrelative:servicios\\clases\\clsusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "clsUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\vahos\\OneDrive\\Documentos\\ITM\\ITM - 6SEMESTRE\\APP Y SERVICIOS WEB\\Proyecto_Final\\App\\Servicios\\Servicios\\Clases\\clsUsuario.cs",
+              "RelativeDocumentMoniker": "Servicios\\Clases\\clsUsuario.cs",
+              "ToolTip": "C:\\Users\\vahos\\OneDrive\\Documentos\\ITM\\ITM - 6SEMESTRE\\APP Y SERVICIOS WEB\\Proyecto_Final\\App\\Servicios\\Servicios\\Clases\\clsUsuario.cs*",
+              "RelativeToolTip": "Servicios\\Clases\\clsUsuario.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T21:54:11.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\vahos\\OneDrive\\Documentos\\ITM\\ITM - 6SEMESTRE\\APP Y SERVICIOS WEB\\Proyecto_Final\\App\\Servicios\\Servicios\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "Servicios\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\vahos\\OneDrive\\Documentos\\ITM\\ITM - 6SEMESTRE\\APP Y SERVICIOS WEB\\Proyecto_Final\\App\\Servicios\\Servicios\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "Servicios\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T21:47:07.407Z",
+              "EditorCaption": ""
             }
           ]
         }

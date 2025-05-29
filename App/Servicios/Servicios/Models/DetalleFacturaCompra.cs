@@ -9,6 +9,7 @@
 
 namespace Servicios.Models
 {
+    using Newtonsoft.Json;
     using System;
     using System.Collections.Generic;
     
@@ -19,8 +20,9 @@ namespace Servicios.Models
         public int CodigoEquipo { get; set; }
         public int Cantidad { get; set; }
         public decimal ValorUnitario { get; set; }
-    
+        [JsonIgnore]
         public virtual Equipo Equipo { get; set; }
+        [JsonIgnore]
         public virtual FacturaCompra FacturaCompra { get; set; }
     }
 }

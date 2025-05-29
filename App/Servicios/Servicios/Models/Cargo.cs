@@ -9,6 +9,7 @@
 
 namespace Servicios.Models
 {
+    using Newtonsoft.Json;
     using System;
     using System.Collections.Generic;
     
@@ -23,6 +24,7 @@ namespace Servicios.Models
         public int CodigoCargo { get; set; }
         public string Nombre { get; set; }
         public decimal Salario { get; set; }
+        [JsonIgnore]
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<EmpleadoCargo> EmpleadoCargoes { get; set; }

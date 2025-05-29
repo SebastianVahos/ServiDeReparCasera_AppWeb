@@ -9,6 +9,7 @@
 
 namespace Servicios.Models
 {
+    using Newtonsoft.Json;
     using System;
     using System.Collections.Generic;
     
@@ -18,8 +19,9 @@ namespace Servicios.Models
         public int CodigoEquipo { get; set; }
         public int IdProgramacion { get; set; }
         public int Cantidad { get; set; }
-    
+        [JsonIgnore]
         public virtual Equipo Equipo { get; set; }
+        [JsonIgnore]
         public virtual Programacion Programacion { get; set; }
     }
 }

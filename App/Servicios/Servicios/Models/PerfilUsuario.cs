@@ -9,6 +9,7 @@
 
 namespace Servicios.Models
 {
+    using Newtonsoft.Json;
     using System;
     using System.Collections.Generic;
     
@@ -18,8 +19,9 @@ namespace Servicios.Models
         public int IdUsuario { get; set; }
         public int IdPerfil { get; set; }
         public bool Estado { get; set; }
-    
+        [JsonIgnore]
         public virtual Perfil Perfil { get; set; }
+        [JsonIgnore]
         public virtual Usuario Usuario { get; set; }
     }
 }

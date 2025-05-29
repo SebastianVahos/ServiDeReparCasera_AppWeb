@@ -9,6 +9,7 @@
 
 namespace Servicios.Models
 {
+    using Newtonsoft.Json;
     using System;
     using System.Collections.Generic;
     
@@ -17,7 +18,7 @@ namespace Servicios.Models
         public int IdFoto { get; set; }
         public string NombreFoto { get; set; }
         public string CCEmpleado { get; set; }
-    
+        [JsonIgnore]
         public virtual Empleado Empleado { get; set; }
     }
 }
