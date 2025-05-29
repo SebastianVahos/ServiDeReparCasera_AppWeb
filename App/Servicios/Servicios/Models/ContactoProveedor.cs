@@ -9,7 +9,6 @@
 
 namespace Servicios.Models
 {
-    using Newtonsoft.Json;
     using System;
     using System.Collections.Generic;
     
@@ -20,7 +19,7 @@ namespace Servicios.Models
         public string Telefono { get; set; }
         public string Cargo { get; set; }
         public string IdProveedor { get; set; }
-        [JsonIgnore]
+    
         public virtual Proveedor Proveedor { get; set; }
     }
 }

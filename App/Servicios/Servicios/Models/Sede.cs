@@ -9,7 +9,6 @@
 
 namespace Servicios.Models
 {
-    using Newtonsoft.Json;
     using System;
     using System.Collections.Generic;
     
@@ -26,9 +25,8 @@ namespace Servicios.Models
         public string Direccion { get; set; }
         public string Telefono { get; set; }
         public int CodigoCiudad { get; set; }
-        [JsonIgnore]
+    
         public virtual Ciudad Ciudad { get; set; }
-        [JsonIgnore]
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<EmpleadoCargo> EmpleadoCargoes { get; set; }
     }

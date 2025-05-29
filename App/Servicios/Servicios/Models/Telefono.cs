@@ -9,7 +9,6 @@
 
 namespace Servicios.Models
 {
-    using Newtonsoft.Json;
     using System;
     using System.Collections.Generic;
     
@@ -18,7 +17,7 @@ namespace Servicios.Models
         public int Codigo { get; set; }
         public string Numero { get; set; }
         public string Documento { get; set; }
-        [JsonIgnore]
+    
         public virtual Cliente Cliente { get; set; }
     }
 }

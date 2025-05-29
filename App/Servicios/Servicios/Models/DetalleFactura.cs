@@ -9,7 +9,6 @@
 
 namespace Servicios.Models
 {
-    using Newtonsoft.Json;
     using System;
     using System.Collections.Generic;
     
@@ -20,9 +19,8 @@ namespace Servicios.Models
         public int CodigoServicio { get; set; }
         public int Cantidad { get; set; }
         public decimal Subtotal { get; set; }
-        [JsonIgnore]
+    
         public virtual Servicio Servicio { get; set; }
-        [JsonIgnore]
         public virtual Factura Factura { get; set; }
     }
 }

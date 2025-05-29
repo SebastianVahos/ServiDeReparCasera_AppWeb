@@ -9,7 +9,6 @@
 
 namespace Servicios.Models
 {
-    using Newtonsoft.Json;
     using System;
     using System.Collections.Generic;
     
@@ -21,9 +20,8 @@ namespace Servicios.Models
         public decimal ValorUnitario { get; set; }
         public System.DateTime FechaCotizacion { get; set; }
         public System.DateTime FechaValidez { get; set; }
-        [JsonIgnore]
+    
         public virtual Equipo Equipo { get; set; }
-        [JsonIgnore]
         public virtual Proveedor Proveedor { get; set; }
     }
 }
