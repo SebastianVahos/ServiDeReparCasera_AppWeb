@@ -3,11 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\vahos\\OneDrive\\Documentos\\ITM\\ITM - 6SEMESTRE\\APP Y SERVICIOS WEB\\Proyecto_Final\\App\\Servicios\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|c:\\users\\vahos\\onedrive\\documentos\\itm\\itm - 6semestre\\app y servicios web\\proyecto_final\\app\\servicios\\servicios\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|c:\\users\\vahos\\onedrive\\documentos\\itm\\itm - 6semestre\\app y servicios web\\proyecto_final\\app\\servicios\\servicios\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|solutionrelative:servicios\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|c:\\users\\vahos\\onedrive\\documentos\\itm\\itm - 6semestre\\app y servicios web\\proyecto_final\\app\\servicios\\servicios\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|solutionrelative:servicios\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|C:\\Users\\vahos\\OneDrive\\Documentos\\ITM\\ITM - 6SEMESTRE\\APP Y SERVICIOS WEB\\Proyecto_Final\\App\\Servicios\\servicios\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|solutionrelative:servicios\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|C:\\Users\\vahos\\OneDrive\\Documentos\\ITM\\ITM - 6SEMESTRE\\APP Y SERVICIOS WEB\\Proyecto_Final\\App\\Servicios\\servicios\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|solutionrelative:servicios\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|c:\\users\\vahos\\onedrive\\documentos\\itm\\itm - 6semestre\\app y servicios web\\proyecto_final\\app\\servicios\\servicios\\clases\\clsusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|C:\\Users\\vahos\\OneDrive\\Documentos\\ITM\\ITM - 6SEMESTRE\\APP Y SERVICIOS WEB\\Proyecto_Final\\App\\Servicios\\servicios\\clases\\clslogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|solutionrelative:servicios\\clases\\clslogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|C:\\Users\\vahos\\OneDrive\\Documentos\\ITM\\ITM - 6SEMESTRE\\APP Y SERVICIOS WEB\\Proyecto_Final\\App\\Servicios\\servicios\\clases\\clsusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|solutionrelative:servicios\\clases\\clsusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,32 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "clsUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\vahos\\OneDrive\\Documentos\\ITM\\ITM - 6SEMESTRE\\APP Y SERVICIOS WEB\\Proyecto_Final\\App\\Servicios\\Servicios\\Clases\\clsUsuario.cs",
-              "RelativeDocumentMoniker": "Servicios\\Clases\\clsUsuario.cs",
-              "ToolTip": "C:\\Users\\vahos\\OneDrive\\Documentos\\ITM\\ITM - 6SEMESTRE\\APP Y SERVICIOS WEB\\Proyecto_Final\\App\\Servicios\\Servicios\\Clases\\clsUsuario.cs*",
-              "RelativeToolTip": "Servicios\\Clases\\clsUsuario.cs*",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T21:54:11.409Z",
+              "DocumentIndex": 0,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\vahos\\OneDrive\\Documentos\\ITM\\ITM - 6SEMESTRE\\APP Y SERVICIOS WEB\\Proyecto_Final\\App\\Servicios\\Servicios\\packages.config",
+              "RelativeDocumentMoniker": "Servicios\\packages.config",
+              "ToolTip": "C:\\Users\\vahos\\OneDrive\\Documentos\\ITM\\ITM - 6SEMESTRE\\APP Y SERVICIOS WEB\\Proyecto_Final\\App\\Servicios\\Servicios\\packages.config",
+              "RelativeToolTip": "Servicios\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-29T23:11:44.592Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "C:\\Users\\vahos\\OneDrive\\Documentos\\ITM\\ITM - 6SEMESTRE\\APP Y SERVICIOS WEB\\Proyecto_Final\\App\\Servicios\\Servicios\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "Servicios\\Controllers\\ClientesController.cs",
+              "ToolTip": "C:\\Users\\vahos\\OneDrive\\Documentos\\ITM\\ITM - 6SEMESTRE\\APP Y SERVICIOS WEB\\Proyecto_Final\\App\\Servicios\\Servicios\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "Servicios\\Controllers\\ClientesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T22:34:35.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "UsuariosController.cs",
               "DocumentMoniker": "C:\\Users\\vahos\\OneDrive\\Documentos\\ITM\\ITM - 6SEMESTRE\\APP Y SERVICIOS WEB\\Proyecto_Final\\App\\Servicios\\Servicios\\Controllers\\UsuariosController.cs",
               "RelativeDocumentMoniker": "Servicios\\Controllers\\UsuariosController.cs",
               "ToolTip": "C:\\Users\\vahos\\OneDrive\\Documentos\\ITM\\ITM - 6SEMESTRE\\APP Y SERVICIOS WEB\\Proyecto_Final\\App\\Servicios\\Servicios\\Controllers\\UsuariosController.cs",
               "RelativeToolTip": "Servicios\\Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T21:47:07.407Z",
+              "WhenOpened": "2025-05-29T22:34:11.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "clsUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\vahos\\OneDrive\\Documentos\\ITM\\ITM - 6SEMESTRE\\APP Y SERVICIOS WEB\\Proyecto_Final\\App\\Servicios\\Servicios\\Clases\\clsUsuario.cs",
+              "RelativeDocumentMoniker": "Servicios\\Clases\\clsUsuario.cs",
+              "ToolTip": "C:\\Users\\vahos\\OneDrive\\Documentos\\ITM\\ITM - 6SEMESTRE\\APP Y SERVICIOS WEB\\Proyecto_Final\\App\\Servicios\\Servicios\\Clases\\clsUsuario.cs",
+              "RelativeToolTip": "Servicios\\Clases\\clsUsuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T22:33:45.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\vahos\\OneDrive\\Documentos\\ITM\\ITM - 6SEMESTRE\\APP Y SERVICIOS WEB\\Proyecto_Final\\App\\Servicios\\Servicios\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Servicios\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\vahos\\OneDrive\\Documentos\\ITM\\ITM - 6SEMESTRE\\APP Y SERVICIOS WEB\\Proyecto_Final\\App\\Servicios\\Servicios\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Servicios\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T22:33:01.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "clsLogin.cs",
+              "DocumentMoniker": "C:\\Users\\vahos\\OneDrive\\Documentos\\ITM\\ITM - 6SEMESTRE\\APP Y SERVICIOS WEB\\Proyecto_Final\\App\\Servicios\\Servicios\\Clases\\clsLogin.cs",
+              "RelativeDocumentMoniker": "Servicios\\Clases\\clsLogin.cs",
+              "ToolTip": "C:\\Users\\vahos\\OneDrive\\Documentos\\ITM\\ITM - 6SEMESTRE\\APP Y SERVICIOS WEB\\Proyecto_Final\\App\\Servicios\\Servicios\\Clases\\clsLogin.cs",
+              "RelativeToolTip": "Servicios\\Clases\\clsLogin.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAD0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T22:09:58.179Z",
               "EditorCaption": ""
             }
           ]

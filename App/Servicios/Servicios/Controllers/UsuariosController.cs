@@ -10,6 +10,7 @@ using System.Web.Http;
 namespace Servicios.Controllers
 {
     [RoutePrefix("api/Usuarios")]
+    [Authorize] 
     public class UsuariosController : ApiController
     {
         [HttpPost]

@@ -10,6 +10,7 @@ using System.Web.Http;
 namespace Servicios.Controllers
 {
     [RoutePrefix("api/Clientes")]
+    [Authorize]
     public class ClientesController : ApiController
     {
         [HttpGet]
