@@ -5,18 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|c:\\users\\samuc\\desktop\\universidad\\finalservweb\\servidereparcasera_appweb\\app\\servicios\\servicios\\controllers\\programacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|solutionrelative:servicios\\controllers\\programacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|c:\\users\\samuc\\desktop\\universidad\\finalservweb\\servidereparcasera_appweb\\app\\servicios\\servicios\\clases\\claseprogramacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|solutionrelative:servicios\\clases\\claseprogramacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|c:\\users\\samuc\\desktop\\universidad\\finalservweb\\servidereparcasera_appweb\\app\\servicios\\servicios\\controllers\\serviciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|solutionrelative:servicios\\controllers\\serviciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|c:\\users\\samuc\\desktop\\universidad\\finalservweb\\servidereparcasera_appweb\\app\\servicios\\servicios\\clases\\claseservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|solutionrelative:servicios\\clases\\claseservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -44,48 +32,9 @@
               "RelativeDocumentMoniker": "Servicios\\Controllers\\ProgramacionController.cs",
               "ToolTip": "C:\\Users\\samuc\\Desktop\\Universidad\\finalservweb\\ServiDeReparCasera_AppWeb\\App\\Servicios\\Servicios\\Controllers\\ProgramacionController.cs",
               "RelativeToolTip": "Servicios\\Controllers\\ProgramacionController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAIwBIAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAuwEIAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T22:29:35.918Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ClaseProgramacion.cs",
-              "DocumentMoniker": "C:\\Users\\samuc\\Desktop\\Universidad\\finalservweb\\ServiDeReparCasera_AppWeb\\App\\Servicios\\Servicios\\Clases\\ClaseProgramacion.cs",
-              "RelativeDocumentMoniker": "Servicios\\Clases\\ClaseProgramacion.cs",
-              "ToolTip": "C:\\Users\\samuc\\Desktop\\Universidad\\finalservweb\\ServiDeReparCasera_AppWeb\\App\\Servicios\\Servicios\\Clases\\ClaseProgramacion.cs*",
-              "RelativeToolTip": "Servicios\\Clases\\ClaseProgramacion.cs*",
-              "ViewState": "AgIAABIAAAAAAAAAAAAywBwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T22:27:32.25Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ServicioController.cs",
-              "DocumentMoniker": "C:\\Users\\samuc\\Desktop\\Universidad\\finalservweb\\ServiDeReparCasera_AppWeb\\App\\Servicios\\Servicios\\Controllers\\ServicioController.cs",
-              "RelativeDocumentMoniker": "Servicios\\Controllers\\ServicioController.cs",
-              "ToolTip": "C:\\Users\\samuc\\Desktop\\Universidad\\finalservweb\\ServiDeReparCasera_AppWeb\\App\\Servicios\\Servicios\\Controllers\\ServicioController.cs",
-              "RelativeToolTip": "Servicios\\Controllers\\ServicioController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T22:09:53.481Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ClaseServicio.cs",
-              "DocumentMoniker": "C:\\Users\\samuc\\Desktop\\Universidad\\finalservweb\\ServiDeReparCasera_AppWeb\\App\\Servicios\\Servicios\\Clases\\ClaseServicio.cs",
-              "RelativeDocumentMoniker": "Servicios\\Clases\\ClaseServicio.cs",
-              "ToolTip": "C:\\Users\\samuc\\Desktop\\Universidad\\finalservweb\\ServiDeReparCasera_AppWeb\\App\\Servicios\\Servicios\\Clases\\ClaseServicio.cs",
-              "RelativeToolTip": "Servicios\\Clases\\ClaseServicio.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T22:07:39.37Z",
+              "WhenOpened": "2025-05-29T23:14:58.286Z",
               "EditorCaption": ""
             }
           ]

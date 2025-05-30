@@ -38,7 +38,21 @@ namespace Servicios.Controllers
             }
 
             ClaseProgramacion.AgregarProgramacion(programacion);
-            return Ok("Programacion agregada correctamente.");
+            return Ok("Programacion agregada     correctamente.");
+        }
+
+        [HttpPut]
+        [Route("actualizarestado")]
+        public IHttpActionResult ActualizarEstadoDeProgramacion(int programacion, string estado)
+        {
+
+            if (ClaseProgramacion.ObtenerProgramacionPorID(programacion) == null)
+            {
+                return BadRequest("No existe programación con ese ID");
+            }
+
+            ClaseProgramacion.ActualizarEstadoDeProgramacion(programacion, estado);
+            return Ok("Se actualizó correctamente el estado de la programación.");
         }
 
         [HttpPut]

@@ -28,21 +28,35 @@ namespace Servicios.Clases
 
         public void AgregarProgramacion(Programacion programacion)
         {
+            if(programacion.Estado == null || programacion.Estado == "")
+            {
+                programacion.Estado = "registrada";
+            }
             _context.Programacions.Add(programacion);
             _context.SaveChanges();
         }
 
         public void ActualizarProgramacion(Programacion programacion)
         {
-            var servicioExistente = _context.Programacions.FirstOrDefault(p => p.IdProgramacion == programacion.IdProgramacion);
-            if (servicioExistente != null)
+            var ProgramacionExistente = _context.Programacions.FirstOrDefault(p => p.IdProgramacion == programacion.IdProgramacion);
+            if (ProgramacionExistente != null)
             {
-                servicioExistente.Fecha = programacion.Fecha;
-                servicioExistente.Hora = programacion.Hora;
-                servicioExistente.Direccion = programacion.Direccion;
-                servicioExistente.Estado = programacion.Estado;
-                servicioExistente.Documento = programacion.Documento;
-                servicioExistente.CodigoServicio = programacion.CodigoServicio;
+                ProgramacionExistente.Fecha = programacion.Fecha;
+                ProgramacionExistente.Hora = programacion.Hora;
+                ProgramacionExistente.Direccion = programacion.Direccion;
+                ProgramacionExistente.Estado = programacion.Estado;
+                ProgramacionExistente.Documento = programacion.Documento;
+                ProgramacionExistente.CodigoServicio = programacion.CodigoServicio;
+                _context.SaveChanges();
+            }
+        }
+
+        public void ActualizarEstadoDeProgramacion(int programacion, string Estado)
+        {
+            var ProgramacionExistente = _context.Programacions.FirstOrDefault(p => p.IdProgramacion == programacion);
+            if (ProgramacionExistente != null)
+            {
+                ProgramacionExistente.Estado = Estado;
                 _context.SaveChanges();
             }
         }
