@@ -365,3 +365,5 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/App/Servicios/.vs/Servicios/v17/DocumentLayout.json
+/App/Web/Web/obj/Debug/Web.csproj.AssemblyReference.cache
