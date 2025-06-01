@@ -1,12 +1,70 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\vahos\\OneDrive\\Documentos\\ITM\\ITM - 6SEMESTRE\\APP Y SERVICIOS WEB\\Proyecto_Final\\App\\Servicios\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|c:\\users\\vahos\\onedrive\\documentos\\itm\\itm - 6semestre\\app y servicios web\\proyecto_final\\app\\servicios\\servicios\\controllers\\programacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|solutionrelative:servicios\\controllers\\programacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vahos\\OneDrive\\Documentos\\ITM\\ITM - 6SEMESTRE\\APP Y SERVICIOS WEB\\Proyecto_Final\\App\\Servicios\\Servicios\\Clases\\ClaseProgramacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Servicios\\Clases\\ClaseProgramacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vahos\\OneDrive\\Documentos\\ITM\\ITM - 6SEMESTRE\\APP Y SERVICIOS WEB\\Proyecto_Final\\App\\Servicios\\Servicios\\Clases\\ClaseServicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Servicios\\Clases\\ClaseServicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProgramacionController.cs",
+              "DocumentMoniker": "C:\\Users\\vahos\\OneDrive\\Documentos\\ITM\\ITM - 6SEMESTRE\\APP Y SERVICIOS WEB\\Proyecto_Final\\App\\Servicios\\Servicios\\Controllers\\ProgramacionController.cs",
+              "RelativeDocumentMoniker": "Servicios\\Controllers\\ProgramacionController.cs",
+              "ToolTip": "C:\\Users\\vahos\\OneDrive\\Documentos\\ITM\\ITM - 6SEMESTRE\\APP Y SERVICIOS WEB\\Proyecto_Final\\App\\Servicios\\Servicios\\Controllers\\ProgramacionController.cs",
+              "RelativeToolTip": "Servicios\\Controllers\\ProgramacionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T23:43:41.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClaseProgramacion.cs",
+              "DocumentMoniker": "C:\\Users\\vahos\\OneDrive\\Documentos\\ITM\\ITM - 6SEMESTRE\\APP Y SERVICIOS WEB\\Proyecto_Final\\App\\Servicios\\Servicios\\Clases\\ClaseProgramacion.cs",
+              "RelativeDocumentMoniker": "Servicios\\Clases\\ClaseProgramacion.cs",
+              "ToolTip": "C:\\Users\\vahos\\OneDrive\\Documentos\\ITM\\ITM - 6SEMESTRE\\APP Y SERVICIOS WEB\\Proyecto_Final\\App\\Servicios\\Servicios\\Clases\\ClaseProgramacion.cs",
+              "RelativeToolTip": "Servicios\\Clases\\ClaseProgramacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T23:39:21.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClaseServicio.cs",
+              "DocumentMoniker": "C:\\Users\\vahos\\OneDrive\\Documentos\\ITM\\ITM - 6SEMESTRE\\APP Y SERVICIOS WEB\\Proyecto_Final\\App\\Servicios\\Servicios\\Clases\\ClaseServicio.cs",
+              "RelativeDocumentMoniker": "Servicios\\Clases\\ClaseServicio.cs",
+              "ToolTip": "C:\\Users\\vahos\\OneDrive\\Documentos\\ITM\\ITM - 6SEMESTRE\\APP Y SERVICIOS WEB\\Proyecto_Final\\App\\Servicios\\Servicios\\Clases\\ClaseServicio.cs",
+              "RelativeToolTip": "Servicios\\Clases\\ClaseServicio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T23:39:01.747Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
