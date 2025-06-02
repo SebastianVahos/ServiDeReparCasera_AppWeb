@@ -16,6 +16,8 @@ namespace Servicios
             // Rutas de Web API
             config.MapHttpAttributeRoutes();
 
+            config.EnableCors();
+
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
                 routeTemplate: "api/{controller}/{id}",

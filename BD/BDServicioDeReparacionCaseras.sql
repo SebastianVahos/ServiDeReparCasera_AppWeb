@@ -153,11 +153,19 @@ foreign key (Numero) references Factura(Numero),
 foreign key (CodigoServicio) references Servicio(CodigoServicio)
 )
 go
+CREATE TABLE TipoTelefono(
+Codigo int primary key IDENTITY(1,1) NOT NULL,
+Nombre varchar(50) NOT NULL,
+Activo bit NOT NULL
+)
+go
 create table Telefono(
 Codigo int primary key identity(1,1) not null,
 Numero varchar(20) not null,
 Documento varchar(20) not null,
-foreign key (Documento) references Cliente(Documento)
+CodigoTipoTelefono int not null,
+foreign key (Documento) references Cliente(Documento),
+foreign key (CodigoTipoTelefono) references TipoTelefono(Codigo)
 )
 go
 create table Proveedor(
@@ -351,13 +359,25 @@ go
 INSERT INTO Proveedor (IdProveedor, Nombre, RazonSocial, Direccion, Telefono, SitioWeb) VALUES
 ('PROV001', 'Equipos & Herramientas S.A.S.', 'Suministro de equipos, herramientas y materiales para reparación y remodelación en el hogar.', 'Calle 45 # 22-35, Medellín, Antioquia', '3001234567', 'www.equiposherramientas.com');
 go
-INSERT INTO Telefono (Numero, Documento) VALUES
-('3001122334', '1002456789'),
-('3002233445', '1009876543'),
-('3003344556', '1023456789'),
-('3004455667', '1034567890'),
-('3005566778', '1045678901'),
-('3006677889', '1056789012');
+INSERT TipoTelefono (Nombre, Activo) VALUES ('CASA', 1)
+INSERT TipoTelefono (Nombre, Activo) VALUES ('TRABAJO', 1)
+INSERT TipoTelefono (Nombre, Activo) VALUES ('CELULAR', 1)
+INSERT TipoTelefono (Nombre, Activo) VALUES ('CELULAR OFICINA', 1)
+INSERT TipoTelefono (Nombre, Activo) VALUES ('CASA 2', 1)
+INSERT TipoTelefono (Nombre, Activo) VALUES ('FAX', 1)
+go
+INSERT INTO Telefono (Numero, Documento, CodigoTipoTelefono) VALUES
+('3001122334', '1002456789', 1),
+('3003453454', '1002456789', 2),
+('3003456676', '1002456789', 3),
+('6577874564', '1002456789', 4),
+('6765745633', '1002456789', 5),
+('6574543534', '1002456789', 6),
+('3002233445', '1009876543', 2),
+('3003344556', '1023456789', 3),
+('3004455667', '1034567890', 4),
+('3005566778', '1045678901', 5),
+('3006677889', '1056789012', 6);
 go
 INSERT INTO Usuario (CCEmpleado, UserName, Clave, Salt) VALUES
 ('1001234567', 'carlos', 'cxd2KSWWnAaJYBn6XBQoO5Xwc0ne//CUbtyqZqNGgT91GREBY/tLK7/H4rJaG7TX', 'cxd2KSWWnAaJYBn6XBQoOw=='),

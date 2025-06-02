@@ -4,60 +4,61 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="348a648c6a904ec4a42b7f4b896436f3" Name="Diagram1" ZoomLevel="55">
-        <EntityTypeShape EntityType="ServiDeReparCaserosModel.Cargo" Width="1.5" PointX="1.5" PointY="8.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="ServiDeReparCaserosModel.Ciudad" Width="1.5" PointX="1.5" PointY="28" IsExpanded="true" />
-        <EntityTypeShape EntityType="ServiDeReparCaserosModel.Cliente" Width="1.5" PointX="0.75" PointY="4.625" IsExpanded="true" />
-        <EntityTypeShape EntityType="ServiDeReparCaserosModel.ContactoProveedor" Width="1.5" PointX="11" PointY="11.75" IsExpanded="true" />
+      <Diagram DiagramId="081db0759f994130a02085399a882bb7" Name="Diagram1">
+        <EntityTypeShape EntityType="ServiDeReparCaserosModel.Cargo" Width="1.5" PointX="1.5" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ServiDeReparCaserosModel.Ciudad" Width="1.5" PointX="1.5" PointY="28.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ServiDeReparCaserosModel.Cliente" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ServiDeReparCaserosModel.ContactoProveedor" Width="1.5" PointX="11" PointY="12.625" IsExpanded="true" />
         <EntityTypeShape EntityType="ServiDeReparCaserosModel.Departamento" Width="1.5" PointX="1.5" PointY="31.25" IsExpanded="true" />
         <EntityTypeShape EntityType="ServiDeReparCaserosModel.DetalleFactura" Width="1.5" PointX="8.25" PointY="4.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ServiDeReparCaserosModel.DetalleFacturaCompra" Width="1.5" PointX="13.25" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ServiDeReparCaserosModel.DetalleFacturaCompra" Width="1.5" PointX="16.25" PointY="10.375" IsExpanded="true" />
         <EntityTypeShape EntityType="ServiDeReparCaserosModel.Empleado" Width="1.5" PointX="1.5" PointY="16.125" IsExpanded="true" />
         <EntityTypeShape EntityType="ServiDeReparCaserosModel.EmpleadoCargo" Width="1.5" PointX="0.75" PointY="11.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="ServiDeReparCaserosModel.Equipo" Width="1.5" PointX="6" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ServiDeReparCaserosModel.Equipo" Width="1.5" PointX="6" PointY="8.75" IsExpanded="true" />
         <EntityTypeShape EntityType="ServiDeReparCaserosModel.EquipoProgramacion" Width="1.5" PointX="8.25" PointY="1.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="ServiDeReparCaserosModel.EquipoProveedor" Width="1.5" PointX="11" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ServiDeReparCaserosModel.EquipoProveedor" Width="1.5" PointX="11" PointY="8.625" IsExpanded="true" />
         <EntityTypeShape EntityType="ServiDeReparCaserosModel.Factura" Width="1.5" PointX="3" PointY="4.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ServiDeReparCaserosModel.FacturaCompra" Width="1.5" PointX="11" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ServiDeReparCaserosModel.FacturaCompra" Width="1.5" PointX="14" PointY="12" IsExpanded="true" />
         <EntityTypeShape EntityType="ServiDeReparCaserosModel.FotosEmpleado" Width="1.5" PointX="3.75" PointY="15.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="ServiDeReparCaserosModel.ImagenesEquipo" Width="1.5" PointX="8.25" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="ServiDeReparCaserosModel.ImagenesEquipo" Width="1.5" PointX="8.25" PointY="9.125" IsExpanded="true" />
         <EntityTypeShape EntityType="ServiDeReparCaserosModel.Perfil" Width="1.5" PointX="3.75" PointY="21" IsExpanded="true" />
         <EntityTypeShape EntityType="ServiDeReparCaserosModel.PerfilUsuario" Width="1.5" PointX="6" PointY="17.875" IsExpanded="true" />
         <EntityTypeShape EntityType="ServiDeReparCaserosModel.Programacion" Width="1.5" PointX="6" PointY="4.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="ServiDeReparCaserosModel.Proveedor" Width="1.5" PointX="8.75" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ServiDeReparCaserosModel.Proveedor" Width="1.5" PointX="8.75" PointY="12.25" IsExpanded="true" />
         <EntityTypeShape EntityType="ServiDeReparCaserosModel.Sede" Width="1.5" PointX="1.5" PointY="24" IsExpanded="true" />
         <EntityTypeShape EntityType="ServiDeReparCaserosModel.Servicio" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ServiDeReparCaserosModel.sysdiagram" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="ServiDeReparCaserosModel.Telefono" Width="1.5" PointX="3" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ServiDeReparCaserosModel.Telefono" Width="1.5" PointX="3" PointY="1.875" IsExpanded="true" />
         <EntityTypeShape EntityType="ServiDeReparCaserosModel.TipoContrato" Width="1.5" PointX="1.5" PointY="20.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ServiDeReparCaserosModel.TipoTelefono" Width="1.5" PointX="0.75" PointY="2.125" IsExpanded="true" />
         <EntityTypeShape EntityType="ServiDeReparCaserosModel.Usuario" Width="1.5" PointX="3.75" PointY="17.75" IsExpanded="true" />
         <AssociationConnector Association="ServiDeReparCaserosModel.FK__EmpleadoC__Codig__46E78A0C" ManuallyRouted="false" />
         <AssociationConnector Association="ServiDeReparCaserosModel.FK__Ciudad__CodigoDe__3B75D760" ManuallyRouted="false" />
         <AssociationConnector Association="ServiDeReparCaserosModel.FK__Sede__CodigoCiud__3F466844" ManuallyRouted="false" />
         <AssociationConnector Association="ServiDeReparCaserosModel.FK__Factura__Documen__6754599E" ManuallyRouted="false" />
         <AssociationConnector Association="ServiDeReparCaserosModel.FK__Programac__Docum__5BE2A6F2" ManuallyRouted="false" />
-        <AssociationConnector Association="ServiDeReparCaserosModel.FK__Telefono__Docume__6EF57B66" ManuallyRouted="false" />
-        <AssociationConnector Association="ServiDeReparCaserosModel.FK__ContactoP__IdPro__73BA3083" ManuallyRouted="false" />
+        <AssociationConnector Association="ServiDeReparCaserosModel.FK__Telefono__Docume__70DDC3D8" ManuallyRouted="false" />
+        <AssociationConnector Association="ServiDeReparCaserosModel.FK__ContactoP__IdPro__76969D2E" ManuallyRouted="false" />
         <AssociationConnector Association="ServiDeReparCaserosModel.FK__DetalleFa__Codig__6C190EBB" ManuallyRouted="false" />
         <AssociationConnector Association="ServiDeReparCaserosModel.FK__DetalleFa__Numer__6B24EA82" ManuallyRouted="false" />
-        <AssociationConnector Association="ServiDeReparCaserosModel.FK__DetalleFa__Codig__07C12930" ManuallyRouted="false" />
-        <AssociationConnector Association="ServiDeReparCaserosModel.FK__DetalleFa__Numer__06CD04F7" ManuallyRouted="false" />
+        <AssociationConnector Association="ServiDeReparCaserosModel.FK__DetalleFa__Codig__0A9D95DB" ManuallyRouted="false" />
+        <AssociationConnector Association="ServiDeReparCaserosModel.FK__DetalleFa__Numer__09A971A2" ManuallyRouted="false" />
         <AssociationConnector Association="ServiDeReparCaserosModel.FK__Empleado__IdTipo__440B1D61" ManuallyRouted="false" />
         <AssociationConnector Association="ServiDeReparCaserosModel.FK__EmpleadoC__CCEmp__47DBAE45" ManuallyRouted="false" />
         <AssociationConnector Association="ServiDeReparCaserosModel.FK__FotosEmpl__CCEmp__4BAC3F29" ManuallyRouted="false" />
         <AssociationConnector Association="ServiDeReparCaserosModel.FK__Usuario__CCEmple__4E88ABD4" ManuallyRouted="false" />
         <AssociationConnector Association="ServiDeReparCaserosModel.FK__EmpleadoC__IdSed__48CFD27E" ManuallyRouted="false" />
         <AssociationConnector Association="ServiDeReparCaserosModel.FK__Factura__CodigoE__68487DD7" ManuallyRouted="false" />
-        <AssociationConnector Association="ServiDeReparCaserosModel.FK__FacturaCo__Codig__02FC7413" ManuallyRouted="false" />
-        <AssociationConnector Association="ServiDeReparCaserosModel.FK__EquipoPro__Codig__00200768" ManuallyRouted="false" />
-        <AssociationConnector Association="ServiDeReparCaserosModel.FK__EquipoPro__Codig__7B5B524B" ManuallyRouted="false" />
-        <AssociationConnector Association="ServiDeReparCaserosModel.FK__ImagenesE__Codig__787EE5A0" ManuallyRouted="false" />
-        <AssociationConnector Association="ServiDeReparCaserosModel.FK__EquipoPro__IdPro__7C4F7684" ManuallyRouted="false" />
+        <AssociationConnector Association="ServiDeReparCaserosModel.FK__FacturaCo__Codig__05D8E0BE" ManuallyRouted="false" />
+        <AssociationConnector Association="ServiDeReparCaserosModel.FK__EquipoPro__Codig__02FC7413" ManuallyRouted="false" />
+        <AssociationConnector Association="ServiDeReparCaserosModel.FK__EquipoPro__Codig__7E37BEF6" ManuallyRouted="false" />
+        <AssociationConnector Association="ServiDeReparCaserosModel.FK__ImagenesE__Codig__7B5B524B" ManuallyRouted="false" />
         <AssociationConnector Association="ServiDeReparCaserosModel.FK__EquipoPro__IdPro__7F2BE32F" ManuallyRouted="false" />
-        <AssociationConnector Association="ServiDeReparCaserosModel.FK__FacturaCo__IdPro__03F0984C" ManuallyRouted="false" />
+        <AssociationConnector Association="ServiDeReparCaserosModel.FK__EquipoPro__IdPro__02084FDA" ManuallyRouted="false" />
+        <AssociationConnector Association="ServiDeReparCaserosModel.FK__FacturaCo__IdPro__06CD04F7" ManuallyRouted="false" />
         <AssociationConnector Association="ServiDeReparCaserosModel.FK__PerfilUsu__IdPer__5441852A" ManuallyRouted="false" />
         <AssociationConnector Association="ServiDeReparCaserosModel.FK__PerfilUsu__IdUsu__534D60F1" ManuallyRouted="false" />
         <AssociationConnector Association="ServiDeReparCaserosModel.FK__Programac__Codig__5CD6CB2B" ManuallyRouted="false" />
+        <AssociationConnector Association="ServiDeReparCaserosModel.FK__Telefono__Codigo__71D1E811" ManuallyRouted="false" />
         <AssociationConnector Association="ServiDeReparCaserosModel.ProgramacionEmpleado" ManuallyRouted="false" />
         <AssociationConnector Association="ServiDeReparCaserosModel.ProgramacionServicio" ManuallyRouted="false" />
       </Diagram>
