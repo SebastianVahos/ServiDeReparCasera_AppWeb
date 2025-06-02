@@ -10,7 +10,7 @@ namespace Servicios.Clases
     public class clsEmpleado
     {
         // Contexto de la base de datos para operaciones EF
-        private ServiDeReparCaserosEntities1 dbServiDeReparCaseros = new ServiDeReparCaserosEntities1();
+        private ServiDeReparCaserosEntities dbServiDeReparCaseros = new ServiDeReparCaserosEntities();
 
         // Propiedad para manipular el empleado
         public Empleado empleado { get; set; }

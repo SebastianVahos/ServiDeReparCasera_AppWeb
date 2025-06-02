@@ -233,96 +233,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Cargo.cs">
-      <DependentUpon>ServiDeReparCaseros.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\Ciudad.cs">
-      <DependentUpon>ServiDeReparCaseros.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\Cliente.cs">
-      <DependentUpon>ServiDeReparCaseros.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\ContactoProveedor.cs">
-      <DependentUpon>ServiDeReparCaseros.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\Departamento.cs">
-      <DependentUpon>ServiDeReparCaseros.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\DetalleFactura.cs">
-      <DependentUpon>ServiDeReparCaseros.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\DetalleFacturaCompra.cs">
-      <DependentUpon>ServiDeReparCaseros.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\Empleado.cs">
-      <DependentUpon>ServiDeReparCaseros.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\EmpleadoCargo.cs">
-      <DependentUpon>ServiDeReparCaseros.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\Equipo.cs">
-      <DependentUpon>ServiDeReparCaseros.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\EquipoProgramacion.cs">
-      <DependentUpon>ServiDeReparCaseros.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\EquipoProveedor.cs">
-      <DependentUpon>ServiDeReparCaseros.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\Factura.cs">
-      <DependentUpon>ServiDeReparCaseros.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\FacturaCompra.cs">
-      <DependentUpon>ServiDeReparCaseros.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\FotosEmpleado.cs">
-      <DependentUpon>ServiDeReparCaseros.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\ImagenesEquipo.cs">
-      <DependentUpon>ServiDeReparCaseros.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\Perfil.cs">
-      <DependentUpon>ServiDeReparCaseros.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\PerfilUsuario.cs">
-      <DependentUpon>ServiDeReparCaseros.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\Programacion.cs">
-      <DependentUpon>ServiDeReparCaseros.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\Proveedor.cs">
-      <DependentUpon>ServiDeReparCaseros.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\Sede.cs">
-      <DependentUpon>ServiDeReparCaseros.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\Servicio.cs">
-      <DependentUpon>ServiDeReparCaseros.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\ServiDeReparCaseros.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ServiDeReparCaseros.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\ServiDeReparCaseros.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ServiDeReparCaseros.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\ServiDeReparCaseros.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ServiDeReparCaseros.edmx</DependentUpon>
-    </Compile>
-    <Compile Include="Models\Telefono.cs">
-      <DependentUpon>ServiDeReparCaseros.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\TipoContrato.cs">
-      <DependentUpon>ServiDeReparCaseros.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\Usuario.cs">
-      <DependentUpon>ServiDeReparCaseros.tt</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -345,16 +255,6 @@
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <Content Include="Models\ServiDeReparCaseros.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>ServiDeReparCaseros.edmx</DependentUpon>
-      <LastGenOutput>ServiDeReparCaseros.Context.cs</LastGenOutput>
-    </Content>
-    <Content Include="Models\ServiDeReparCaseros.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>ServiDeReparCaseros.edmx</DependentUpon>
-      <LastGenOutput>ServiDeReparCaseros.cs</LastGenOutput>
-    </Content>
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -380,13 +280,6 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\CollectionModelDescription.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
-    <EntityDeploy Include="Models\ServiDeReparCaseros.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>ServiDeReparCaseros.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <Content Include="Models\ServiDeReparCaseros.edmx.diagram">
-      <DependentUpon>ServiDeReparCaseros.edmx</DependentUpon>
-    </Content>
     <None Include="Scripts\jquery-3.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.1.js" />
     <Content Include="Scripts\jquery-3.7.1.min.js" />
@@ -410,6 +303,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />

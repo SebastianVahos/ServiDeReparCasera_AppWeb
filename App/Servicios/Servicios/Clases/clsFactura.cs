@@ -8,7 +8,7 @@ namespace Servicios.Clases
 {
     public class clsFactura
     {
-        private ServiDeReparCaserosEntities1 dbServiDeReparCaseros = new ServiDeReparCaserosEntities1();
+        private ServiDeReparCaserosEntities dbServiDeReparCaseros = new ServiDeReparCaserosEntities();
 
         public Factura factura { get; set; }
 
