@@ -47,9 +47,9 @@ namespace Servicios.Models
         public virtual DbSet<Proveedor> Proveedors { get; set; }
         public virtual DbSet<Sede> Sedes { get; set; }
         public virtual DbSet<Servicio> Servicios { get; set; }
-        public virtual DbSet<sysdiagram> sysdiagrams { get; set; }
         public virtual DbSet<Telefono> Telefonoes { get; set; }
         public virtual DbSet<TipoContrato> TipoContratoes { get; set; }
+        public virtual DbSet<TipoTelefono> TipoTelefonoes { get; set; }
         public virtual DbSet<Usuario> Usuarios { get; set; }
     }
 }

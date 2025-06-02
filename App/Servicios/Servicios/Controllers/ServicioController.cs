@@ -6,10 +6,13 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace Servicios.Controllers
 {
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     [RoutePrefix("api/servicios")]
+    [Authorize]
     public class ServicioController : ApiController
     {
         ClaseServicio ClaseServicio = new ClaseServicio();
