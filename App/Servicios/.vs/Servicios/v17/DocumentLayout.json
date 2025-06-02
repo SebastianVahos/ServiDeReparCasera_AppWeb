@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Carolina\\Desktop\\6 semestre\\AppServiciosWeb\\ProyectoWeb\\App\\Servicios\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Carolina\\Desktop\\6 semestre\\AppServiciosWeb\\ProyectoWeb\\App\\Servicios\\.vs\\Servicios\\v17\\DocumentLayout.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.vs\\Servicios\\v17\\DocumentLayout.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|c:\\users\\carolina\\desktop\\6 semestre\\appserviciosweb\\proyectoweb\\app\\servicios\\servicios\\controllers\\proveedorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|solutionrelative:servicios\\controllers\\proveedorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,11 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "DocumentLayout.json",
+              "DocumentMoniker": "C:\\Users\\Carolina\\Desktop\\6 semestre\\AppServiciosWeb\\ProyectoWeb\\App\\Servicios\\.vs\\Servicios\\v17\\DocumentLayout.json",
+              "RelativeDocumentMoniker": ".vs\\Servicios\\v17\\DocumentLayout.json",
+              "ToolTip": "C:\\Users\\Carolina\\Desktop\\6 semestre\\AppServiciosWeb\\ProyectoWeb\\App\\Servicios\\.vs\\Servicios\\v17\\DocumentLayout.json",
+              "RelativeToolTip": ".vs\\Servicios\\v17\\DocumentLayout.json",
+              "ViewState": "AQIAACQAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-02T23:25:59.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "UsuariosController.cs",
               "DocumentMoniker": "C:\\Users\\Carolina\\Desktop\\6 semestre\\AppServiciosWeb\\ProyectoWeb\\App\\Servicios\\Servicios\\Controllers\\UsuariosController.cs",
               "RelativeDocumentMoniker": "Servicios\\Controllers\\UsuariosController.cs",
@@ -42,7 +59,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProveedoresController.cs",
               "DocumentMoniker": "C:\\Users\\Carolina\\Desktop\\6 semestre\\AppServiciosWeb\\ProyectoWeb\\App\\Servicios\\Servicios\\Controllers\\ProveedoresController.cs",
               "RelativeDocumentMoniker": "Servicios\\Controllers\\ProveedoresController.cs",
@@ -55,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "clsProveedor.cs",
               "DocumentMoniker": "C:\\Users\\Carolina\\Desktop\\6 semestre\\AppServiciosWeb\\ProyectoWeb\\App\\Servicios\\Servicios\\Clases\\clsProveedor.cs",
               "RelativeDocumentMoniker": "Servicios\\Clases\\clsProveedor.cs",
@@ -67,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "EquiposController.cs",
               "DocumentMoniker": "C:\\Users\\Carolina\\Desktop\\6 semestre\\AppServiciosWeb\\ProyectoWeb\\App\\Servicios\\Servicios\\Controllers\\EquiposController.cs",
               "RelativeDocumentMoniker": "Servicios\\Controllers\\EquiposController.cs",
