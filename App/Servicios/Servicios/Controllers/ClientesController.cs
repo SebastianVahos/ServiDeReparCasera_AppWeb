@@ -6,9 +6,11 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace Servicios.Controllers
 {
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     [RoutePrefix("api/Clientes")]
     [Authorize]
     public class ClientesController : ApiController
@@ -49,6 +51,22 @@ namespace Servicios.Controllers
         {
             clsCliente cliente = new clsCliente();
             return cliente.Eliminar(documento);
+        }
+        [HttpDelete]
+        [Route("EliminarCliente")]
+        public string Eliminar([FromBody] Cliente cliente)
+        {
+            clsCliente _cliente = new clsCliente();
+            _cliente.cliente = cliente;
+            return _cliente.Eliminar();
+        }
+        [HttpGet]
+        [Route("ClientesConTelefonos")]
+        public IQueryable ClientesConTelefonos()
+        {
+            //Se crea el objeto de la clase ClsCliente, y se invoca el método Consultar
+            clsCliente _ciente = new clsCliente();
+            return _ciente.ConsultarConTelefono();
         }
     }
 }

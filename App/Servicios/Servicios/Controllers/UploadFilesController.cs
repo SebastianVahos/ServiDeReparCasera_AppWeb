@@ -6,9 +6,11 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web.Http;
 using Servicios.Clases;
+using System.Web.Http.Cors;
 
 namespace Servicios.Controllers
 {
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     [RoutePrefix("api/UploadFiles")]
     [Authorize]
 

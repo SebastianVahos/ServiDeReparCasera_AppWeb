@@ -17,7 +17,8 @@
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
-    <Use64BitIISExpress />
+    <Use64BitIISExpress>
+    </Use64BitIISExpress>
     <IISExpressSSLPort>44369</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
@@ -31,7 +32,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>bin\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
@@ -126,6 +127,9 @@
     <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
     </Reference>
+    <Reference Include="System.Web.Cors, Version=5.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Cors.5.3.0\lib\net45\System.Web.Cors.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -136,6 +140,9 @@
     </Reference>
     <Reference Include="System.Web.Http, Version=5.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.3.0\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.Cors, Version=5.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Cors.5.3.0\lib\net45\System.Web.Http.Cors.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.Http.WebHost, Version=5.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.3.0\lib\net45\System.Web.Http.WebHost.dll</HintPath>
@@ -225,6 +232,8 @@
     <Compile Include="Clases\clsEquipo.cs" />
     <Compile Include="Clases\clsLogin.cs" />
     <Compile Include="Clases\clsProveedor.cs" />
+    <Compile Include="Clases\clsTelefono.cs" />
+    <Compile Include="Clases\clsTipoTelefono.cs" />
     <Compile Include="Clases\clsUpload.cs" />
     <Compile Include="Clases\clsUsuario.cs" />
     <Compile Include="Clases\TokenGenerator.cs" />
@@ -236,6 +245,8 @@
     <Compile Include="Controllers\ProgramacionController.cs" />
     <Compile Include="Controllers\ProveedoresController.cs" />
     <Compile Include="Controllers\ServicioController.cs" />
+    <Compile Include="Controllers\TelefonosController.cs" />
+    <Compile Include="Controllers\TipoTelefonosController.cs" />
     <Compile Include="Controllers\UploadFilesController.cs" />
     <Compile Include="Controllers\UsuariosController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
@@ -324,13 +335,13 @@
     <Compile Include="Models\Servicio.cs">
       <DependentUpon>DBServiDeReparCaseros.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\sysdiagram.cs">
-      <DependentUpon>DBServiDeReparCaseros.tt</DependentUpon>
-    </Compile>
     <Compile Include="Models\Telefono.cs">
       <DependentUpon>DBServiDeReparCaseros.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\TipoContrato.cs">
+      <DependentUpon>DBServiDeReparCaseros.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TipoTelefono.cs">
       <DependentUpon>DBServiDeReparCaseros.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Usuario.cs">
@@ -360,20 +371,13 @@
     <Content Include="Global.asax" />
     <Content Include="Models\DBServiDeReparCaseros.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>DBServiDeReparCaseros.Context.cs</LastGenOutput>
       <DependentUpon>DBServiDeReparCaseros.edmx</DependentUpon>
+      <LastGenOutput>DBServiDeReparCaseros.Context.cs</LastGenOutput>
     </Content>
     <Content Include="Models\DBServiDeReparCaseros.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>DBServiDeReparCaseros.edmx</DependentUpon>
       <LastGenOutput>DBServiDeReparCaseros.cs</LastGenOutput>
-    </Content>
-    <EntityDeploy Include="Models\DBServiDeReparCaseros.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>DBServiDeReparCaseros.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <Content Include="Models\DBServiDeReparCaseros.edmx.diagram">
-      <DependentUpon>DBServiDeReparCaseros.edmx</DependentUpon>
     </Content>
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -401,6 +405,13 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\CollectionModelDescription.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
+    <EntityDeploy Include="Models\DBServiDeReparCaseros.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>DBServiDeReparCaseros.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\DBServiDeReparCaseros.edmx.diagram">
+      <DependentUpon>DBServiDeReparCaseros.edmx</DependentUpon>
+    </Content>
     <None Include="Scripts\jquery-3.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.1.js" />
     <Content Include="Scripts\jquery-3.7.1.min.js" />
@@ -458,6 +469,9 @@
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
