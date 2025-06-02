@@ -68,6 +68,20 @@ namespace Servicios.Clases
                 return "No se pudo eliminar el cliente: " + ex.Message;
             }   
         }
+        public string Eliminar()
+        {
+            try
+            {
+                Cliente _cliente = DBServi.Clientes.FirstOrDefault(t => t.Documento == cliente.Documento);
+                DBServi.Clientes.Remove(_cliente);
+                DBServi.SaveChanges();
+                return "Se eliminó el cliente con documento: " + cliente.Documento;
+            }
+            catch (Exception ex)
+            {
+                return "No se pudo eliminar el cliente: " + ex.Message;
+            }
+        }
         public IQueryable ConsultarConTelefono()
         {
             return from C in DBServi.Set<Cliente>()

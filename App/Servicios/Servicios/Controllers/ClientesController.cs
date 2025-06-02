@@ -52,6 +52,14 @@ namespace Servicios.Controllers
             clsCliente cliente = new clsCliente();
             return cliente.Eliminar(documento);
         }
+        [HttpDelete]
+        [Route("EliminarCliente")]
+        public string Eliminar([FromBody] Cliente cliente)
+        {
+            clsCliente _cliente = new clsCliente();
+            _cliente.cliente = cliente;
+            return _cliente.Eliminar();
+        }
         [HttpGet]
         [Route("ClientesConTelefonos")]
         public IQueryable ClientesConTelefonos()
