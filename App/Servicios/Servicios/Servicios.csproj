@@ -417,6 +417,7 @@
     <Content Include="Models\DBServiDeReparCaseros.edmx.diagram">
       <DependentUpon>DBServiDeReparCaseros.edmx</DependentUpon>
     </Content>
+    <None Include="Properties\PublishProfiles\site27756-WebDeploy.pubxml" />
     <None Include="Scripts\jquery-3.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.1.js" />
     <Content Include="Scripts\jquery-3.7.1.min.js" />
