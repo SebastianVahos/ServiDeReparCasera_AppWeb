@@ -1,4 +1,4 @@
-﻿var URLBase = "https://localhost:44369/";
+﻿var URLBase = "http://serv-reparacaseras.runasp.net/";
 
 async function Ingresar() {
     let URL = URLBase + "api/Login/Ingresar";

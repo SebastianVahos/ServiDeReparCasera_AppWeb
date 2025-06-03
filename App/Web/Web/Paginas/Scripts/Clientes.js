@@ -1,4 +1,4 @@
-﻿var URLBase = "https://localhost:44369/";
+﻿var URLBase = "http://serv-reparacaseras.runasp.net/";
 
 jQuery(function () {
     let URL = URLBase + "api/TipoTelefonos/LlenarCombo";

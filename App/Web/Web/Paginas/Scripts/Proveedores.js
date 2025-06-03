@@ -1,0 +1,2 @@
+﻿var URLBase = "http://serv-reparacaseras.runasp.net/";
+
