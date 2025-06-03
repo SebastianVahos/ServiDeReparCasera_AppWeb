@@ -3,32 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\marce\\source\\repos\\ServiDeReparCasera_AppWeb\\App\\Servicios\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|c:\\users\\marce\\source\\repos\\servidereparcasera_appweb\\app\\servicios\\servicios\\controllers\\facturascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|solutionrelative:servicios\\controllers\\facturascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|C:\\Users\\marce\\source\\repos\\ServiDeReparCasera_AppWeb\\App\\Servicios\\servicios\\clases\\clsfactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|solutionrelative:servicios\\clases\\clsfactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|C:\\Users\\marce\\source\\repos\\ServiDeReparCasera_AppWeb\\App\\Servicios\\servicios\\controllers\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|solutionrelative:servicios\\controllers\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|C:\\Users\\marce\\source\\repos\\ServiDeReparCasera_AppWeb\\App\\Servicios\\servicios\\clases\\clsempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|solutionrelative:servicios\\clases\\clsempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|C:\\Users\\marce\\source\\repos\\ServiDeReparCasera_AppWeb\\App\\Servicios\\servicios\\models\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|solutionrelative:servicios\\models\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|C:\\Users\\marce\\source\\repos\\ServiDeReparCasera_AppWeb\\App\\Servicios\\servicios\\controllers\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|solutionrelative:servicios\\controllers\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|C:\\Users\\marce\\source\\repos\\ServiDeReparCasera_AppWeb\\App\\Servicios\\servicios\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|solutionrelative:servicios\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|C:\\Users\\marce\\source\\repos\\ServiDeReparCasera_AppWeb\\App\\Servicios\\servicios\\models\\servidereparcaseros.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|solutionrelative:servicios\\models\\servidereparcaseros.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+      "AbsoluteMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|c:\\users\\marce\\source\\repos\\servidereparcasera_appweb\\app\\servicios\\servicios\\controllers\\facturascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{380D7917-B8F2-4D72-BACF-B05B42346D78}|Servicios\\Servicios.csproj|solutionrelative:servicios\\controllers\\facturascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,20 +26,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "clsFactura.cs",
               "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\ServiDeReparCasera_AppWeb\\App\\Servicios\\Servicios\\Clases\\clsFactura.cs",
               "RelativeDocumentMoniker": "Servicios\\Clases\\clsFactura.cs",
-              "ToolTip": "C:\\Users\\marce\\source\\repos\\ServiDeReparCasera_AppWeb\\App\\Servicios\\Servicios\\Clases\\clsFactura.cs",
-              "RelativeToolTip": "Servicios\\Clases\\clsFactura.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAiwGYAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\marce\\source\\repos\\ServiDeReparCasera_AppWeb\\App\\Servicios\\Servicios\\Clases\\clsFactura.cs*",
+              "RelativeToolTip": "Servicios\\Clases\\clsFactura.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-27T23:57:54.527Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -59,31 +48,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Factura.cs",
-              "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\ServiDeReparCasera_AppWeb\\App\\Servicios\\Servicios\\Models\\Factura.cs",
-              "RelativeDocumentMoniker": "Servicios\\Models\\Factura.cs",
-              "ToolTip": "C:\\Users\\marce\\source\\repos\\ServiDeReparCasera_AppWeb\\App\\Servicios\\Servicios\\Models\\Factura.cs",
-              "RelativeToolTip": "Servicios\\Models\\Factura.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T00:04:47.298Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Empleado.cs",
-              "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\ServiDeReparCasera_AppWeb\\App\\Servicios\\Servicios\\Models\\Empleado.cs",
-              "RelativeDocumentMoniker": "Servicios\\Models\\Empleado.cs",
-              "ToolTip": "C:\\Users\\marce\\source\\repos\\ServiDeReparCasera_AppWeb\\App\\Servicios\\Servicios\\Models\\Empleado.cs",
-              "RelativeToolTip": "Servicios\\Models\\Empleado.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAAC0AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T00:03:00.246Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "FacturasController.cs",
               "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\ServiDeReparCasera_AppWeb\\App\\Servicios\\Servicios\\Controllers\\FacturasController.cs",
               "RelativeDocumentMoniker": "Servicios\\Controllers\\FacturasController.cs",
@@ -102,32 +67,23 @@
               "RelativeDocumentMoniker": "Servicios\\Controllers\\EmpleadosController.cs",
               "ToolTip": "C:\\Users\\marce\\source\\repos\\ServiDeReparCasera_AppWeb\\App\\Servicios\\Servicios\\Controllers\\EmpleadosController.cs",
               "RelativeToolTip": "Servicios\\Controllers\\EmpleadosController.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAywEkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T23:44:06.225Z"
+              "WhenOpened": "2025-05-27T23:44:06.225Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "clsEmpleado.cs",
               "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\ServiDeReparCasera_AppWeb\\App\\Servicios\\Servicios\\Clases\\clsEmpleado.cs",
               "RelativeDocumentMoniker": "Servicios\\Clases\\clsEmpleado.cs",
-              "ToolTip": "C:\\Users\\marce\\source\\repos\\ServiDeReparCasera_AppWeb\\App\\Servicios\\Servicios\\Clases\\clsEmpleado.cs",
-              "RelativeToolTip": "Servicios\\Clases\\clsEmpleado.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAiwGkAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\marce\\source\\repos\\ServiDeReparCasera_AppWeb\\App\\Servicios\\Servicios\\Clases\\clsEmpleado.cs*",
+              "RelativeToolTip": "Servicios\\Clases\\clsEmpleado.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T22:11:46.582Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ServiDeReparCaseros.edmx [Diagram1]",
-              "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\ServiDeReparCasera_AppWeb\\App\\Servicios\\Servicios\\Models\\ServiDeReparCaseros.edmx",
-              "RelativeDocumentMoniker": "Servicios\\Models\\ServiDeReparCaseros.edmx",
-              "ToolTip": "C:\\Users\\marce\\source\\repos\\ServiDeReparCasera_AppWeb\\App\\Servicios\\Servicios\\Models\\ServiDeReparCaseros.edmx [Diagram1]",
-              "RelativeToolTip": "Servicios\\Models\\ServiDeReparCaseros.edmx [Diagram1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2025-05-27T23:26:17.504Z"
+              "WhenOpened": "2025-05-27T22:11:46.582Z",
+              "EditorCaption": ""
             }
           ]
         }

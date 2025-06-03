@@ -10,62 +10,65 @@ using System.Web.Http.Cors;
 
 namespace Servicios.Controllers
 {
+    using System.Web.Http;
+    using System.Web.Http.Cors;
+
     [EnableCors(origins: "*", headers: "*", methods: "*")]
     [RoutePrefix("api/Facturas")]
     [Authorize]
     public class FacturasController : ApiController
     {
-        [HttpGet] //Es el servicio que se va a exponer: GET, POST, PUT, DELETE
-        [Route("ConsultarTodos")] //Es el nombre de la funcionalidad que se va a ejecutar
-        public List<Factura> ConsultarTodas()
-        {
-            //Se crea una instancia de la clase clsEmpleado
-            clsFactura Factura = new clsFactura();
-            //Se invoca el método ConsultarTodos() de la clase clsEmpleado
-            return Factura.ConsultarTodas();
-        }
+        private readonly clsFactura _facturaService = new clsFactura();
 
+        // GET api/Facturas/ListarProductos?NumeroFactura=123
         [HttpGet]
-        [Route("ConsultarXNumero")]
-        public Factura ConsultarXNumero(int Numero)
+        [Route("ListarProductos")]
+        public IHttpActionResult ListarProductos(int NumeroFactura)
         {
-            clsFactura factura = new clsFactura();
-            return factura.Consultar(Numero);
+            if (NumeroFactura <= 0)
+                return BadRequest("Número de factura inválido.");
+
+            var productos = _facturaService.ListarProductos(NumeroFactura);
+            if (productos == null)
+                return NotFound();
+
+            return Ok(productos);
         }
 
+        // POST api/Facturas/GrabarFactura
         [HttpPost]
-        [Route("Insertar")]
-        public string Insertar([FromBody] Factura facturaInput)
+        [Route("GrabarFactura")]
+        public IHttpActionResult GrabarFactura([FromBody] FacturaDetalle facturaDet)
         {
-            clsFactura factura = new clsFactura();
-            factura.factura = facturaInput;
-            return factura.Insertar();
+            if (facturaDet == null || facturaDet.factura == null || facturaDet.detalle == null)
+                return BadRequest("Datos de factura inválidos.");
+
+            _facturaService.factura = facturaDet.factura;
+            _facturaService.detalleFactura = facturaDet.detalle;
+
+            var resultado = _facturaService.GrabarFactura();
+
+            if (resultado.StartsWith("Error"))
+                return BadRequest(resultado);
+
+            return Ok(resultado);
         }
 
-        [HttpPut]
-        [Route("Actualizar")]
-        public string Actualizar([FromBody] Factura facturaInput)
-        {
-            clsFactura factura = new clsFactura();
-            factura.factura = facturaInput;
-            return factura.Actualizar();
-        }
-
+        // DELETE api/Facturas/Eliminar?NumeroDetalle=123
         [HttpDelete]
         [Route("Eliminar")]
-        public string Eliminar([FromBody] Factura facturaInput)
+        public IHttpActionResult Eliminar(int NumeroDetalle)
         {
-            clsFactura factura = new clsFactura();
-            factura.factura = facturaInput;
-            return factura.Eliminar();
-        }
+            if (NumeroDetalle <= 0)
+                return BadRequest("Número de detalle inválido.");
 
-        [HttpDelete]
-        [Route("EliminarXNumero")]
-        public string EliminarXNumero(int Numero)
-        {
-            clsFactura factura = new clsFactura();
-            return factura.EliminarXNumero(Numero);
+            var resultado = _facturaService.EliminarProducto(NumeroDetalle);
+
+            if (resultado.StartsWith("Error"))
+                return BadRequest(resultado);
+
+            return Ok(resultado);
         }
     }
+
 }
