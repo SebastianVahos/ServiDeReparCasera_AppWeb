@@ -235,6 +235,7 @@
     <Compile Include="Clases\clsLogin.cs" />
     <Compile Include="Clases\clsProveedor.cs" />
     <Compile Include="Clases\clsTelefono.cs" />
+    <Compile Include="Clases\clsTipoContrato.cs" />
     <Compile Include="Clases\clsTipoTelefono.cs" />
     <Compile Include="Clases\clsUpload.cs" />
     <Compile Include="Clases\clsUsuario.cs" />
@@ -250,6 +251,7 @@
     <Compile Include="Controllers\ProveedoresController.cs" />
     <Compile Include="Controllers\ServicioController.cs" />
     <Compile Include="Controllers\TelefonosController.cs" />
+    <Compile Include="Controllers\TipoContratosController.cs" />
     <Compile Include="Controllers\TipoTelefonosController.cs" />
     <Compile Include="Controllers\UploadFilesController.cs" />
     <Compile Include="Controllers\UsuariosController.cs" />
