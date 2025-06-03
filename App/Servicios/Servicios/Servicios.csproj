@@ -229,7 +229,9 @@
     <Compile Include="Clases\ClaseServicio.cs" />
     <Compile Include="Clases\clsCliente.cs" />
     <Compile Include="Clases\clsCypher.cs" />
+    <Compile Include="Clases\clsEmpleado.cs" />
     <Compile Include="Clases\clsEquipo.cs" />
+    <Compile Include="Clases\clsFactura.cs" />
     <Compile Include="Clases\clsLogin.cs" />
     <Compile Include="Clases\clsProveedor.cs" />
     <Compile Include="Clases\clsTelefono.cs" />
@@ -239,7 +241,9 @@
     <Compile Include="Clases\TokenGenerator.cs" />
     <Compile Include="Clases\TokenValidationHandler.cs" />
     <Compile Include="Controllers\ClientesController.cs" />
+    <Compile Include="Controllers\EmpleadosController.cs" />
     <Compile Include="Controllers\EquiposController.cs" />
+    <Compile Include="Controllers\FacturasController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\ProgramacionController.cs" />
@@ -316,6 +320,7 @@
     <Compile Include="Models\ImagenesEquipo.cs">
       <DependentUpon>DBServiDeReparCaseros.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\LibFactura.cs" />
     <Compile Include="Models\libLogin.cs" />
     <Compile Include="Models\Perfil.cs">
       <DependentUpon>DBServiDeReparCaseros.tt</DependentUpon>
