@@ -14,7 +14,7 @@ namespace Servicios.Controllers
 
     [EnableCors(origins: "*", headers: "*", methods: "*")]
     [RoutePrefix("api/Facturas")]
-    //[Authorize]
+    [Authorize]
     public class FacturasController : ApiController
     {
         [HttpGet]

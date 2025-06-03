@@ -12,7 +12,7 @@ namespace Servicios.Controllers
 {
     [EnableCors(origins: "*", headers: "*", methods: "*")]
     [RoutePrefix("api/Empleados")]
-    //[Authorize]
+    [Authorize]
     public class EmpleadosController : ApiController
     {
         //GET: Se utiliza para consultar información, no se debe modificar la base de datos
