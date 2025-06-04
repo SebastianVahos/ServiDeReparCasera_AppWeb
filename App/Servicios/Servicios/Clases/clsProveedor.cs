@@ -89,5 +89,22 @@ namespace Servicios.Clases
             }
         }
 
+        public string Eliminar()
+        {
+            try
+            {
+                EquipoProveedor prov = DBServi.EquipoProveedors.FirstOrDefault(p => p.IdProveedor == proveedor.IdProveedor);
+                DBServi.EquipoProveedors.Remove(prov);
+                DBServi.SaveChanges();
+                Proveedor prove = DBServi.Proveedors.FirstOrDefault(e => e.IdProveedor == proveedor.IdProveedor);
+                DBServi.Proveedors.Remove(prove);
+                DBServi.SaveChanges();
+                return "Se eliminó el proveedor con el id: " + proveedor.IdProveedor;
+            }
+            catch (Exception ex)
+            {
+                return "No se pudo eliminar el proveedor: " + ex.Message;
+            }
+        }
     }
 }
