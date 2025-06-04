@@ -118,5 +118,16 @@ namespace Servicios.Clases
                 return "Error: " + ex.Message;
             }
         }
+
+        public IQueryable LlenarCombo()
+        {
+            return from E in DBServi.Set<Equipo>()
+                   orderby E.CodigoEquipo
+                   select new
+                   {
+                       Codigo = E.CodigoEquipo,
+                       Nombre = E.Nombre
+                   };
+        }
     }
 }

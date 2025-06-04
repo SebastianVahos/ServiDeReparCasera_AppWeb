@@ -67,5 +67,13 @@ namespace Servicios.Controllers
             clsEquipo Equipo = new clsEquipo();
             return Equipo.Eliminar(CodigoEquipo);
         }
+
+        [HttpGet]
+        [Route("LlenarCombo")]
+        public IQueryable LlenarCombo()
+        {
+            clsEquipo equipo = new clsEquipo();
+            return equipo.LlenarCombo();
+        }
     }
 }
