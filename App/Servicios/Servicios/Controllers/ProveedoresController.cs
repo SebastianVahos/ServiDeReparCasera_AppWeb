@@ -56,5 +56,13 @@ namespace Servicios.Controllers
             return Proveedor.Eliminar(idProveedor);
         }
 
+        [HttpDelete]
+        [Route("EliminarProveedor")]
+        public string Eliminar([FromBody] Proveedor proveedor)
+        {
+            clsProveedor prov = new clsProveedor();
+            prov.proveedor = proveedor;
+            return prov.Eliminar();
+        }
     }
 }
