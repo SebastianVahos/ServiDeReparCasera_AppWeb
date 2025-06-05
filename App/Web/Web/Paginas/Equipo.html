@@ -65,18 +65,21 @@
                                     </div>
                                     <div class="card-body">
                                         <div class="row">
-                                            <div class="col-md-3">
-                                                <button type="button" id="btnInsertar" class="btn-block btn-lg btn-primary" onclick="EjecutarComando('POST', 'Insertar')">INSERTAR</button>
+                                            <div class="col-md-2">
+                                                <button type="button" id="btnInsertar" class="btn-block btn-lg btn-primary" onclick="EjecutarComandoEquipo('POST', 'Insertar')">INSERTAR</button>
                                             </div>
-                                            <div class="col-md-3">
-                                                <button type="button" id="btnActualizar" class="btn-block btn-lg btn-primary" onclick="EjecutarComando('PUT', 'Actualizar')">ACTUALIZAR</button>
+                                            <div class="col-md-2">
+                                                <button type="button" id="btnActualizar" class="btn-block btn-lg btn-primary" onclick="EjecutarComandoEquipo('PUT', 'Actualizar')">ACTUALIZAR</button>
                                             </div>
-                                            <div class="col-md-3">
-                                                <button type="button" id="btnEliminar" class="btn-block btn-lg btn-primary" onclick="EjecutarComando('DELETE', 'EliminarEquipo')">ELIMINAR</button>
+                                            <div class="col-md-2">
+                                                <button type="button" id="btnEliminar" class="btn-block btn-lg btn-primary" onclick="EjecutarComandoEquipo('DELETE', 'EliminarEquipo')">ELIMINAR</button>
                                             </div>
-                                            <div class="col-md-3">
+                                            <div class="col-md-2">
+                                                <button type="button" id="btnConsultarEqui" class="btn-block btn-lg btn-primary" onclick="ConsultarEquipo()">CONSULTAR EQUIPO</button>
+                                            </div>
+                                            <div class="col-md-2">
                                                 <div class="form-group">
-                                                    <button type="button" id="btnImagenes" class="btn-block btn-lg btn-primary" data-toggle="modal" data-target="#modImagenes" onclick="LlenarTablaImagenes()">CONSULTAR IMAGEN</button>
+                                                    <button type="button" id="btnImagenes" class="btn-block btn-lg btn-primary" data-toggle="modal" data-target="#modImagenes" onclick="LlenarTablaEquipo(); LlenarComboImg()">CONSULTAR IMAGEN</button>
                                                     <!-- Modal -->
                                                     <div class="modal fade" id="modImagenes" tabindex="-1" role="dialog" aria-labelledby="modImagenesLabel" aria-hidden="true">
                                                         <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
@@ -106,34 +109,32 @@
                                                                         </div>
                                                                     </div>
                                                                     <div class="row">
-                                                                        <div class="col-md-3">
+                                                                        <div class="col-md-4">
                                                                             <div class="form-group">
-                                                                                <button id="bntInsertarImg" class="btn-block btn-lg btn-secondary" onclick="EjecutarComando('POST', 'Insertar')">INSERTAR</button>
+                                                                                <button id="bntInsertarImg" class="btn-block btn-lg btn-secondary" onclick="EjecutarComandoInsertar('POST')">INSERTAR</button>
                                                                             </div>
                                                                         </div>
-                                                                        <div class="col-md-3">
+                                                                        <div class="col-md-4">
                                                                             <div class="form-group">
-                                                                                <button id="btnActualizarImg" class="btn-block btn-lg btn-secondary" onclick="EjecutarComando('PUT', 'Actualizar')">ACTUALIZAR</button>
+                                                                                <button id="btnEliminarImg" class="btn-block btn-lg btn-secondary" onclick="EjecutarComandoEliminar('DELETE')">ELIMINAR</button>
                                                                             </div>
                                                                         </div>
-                                                                        <div class="col-md-3">
-                                                                            <div class="form-group">
-                                                                                <button id="btnEliminarImg" class="btn-block btn-lg btn-secondary" onclick="EjecutarComando('DELETE', 'Eliminar')">ELIMINAR</button>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="col-md-3">
+                                                                        <div class="col-md-4">
                                                                             <div class="form-group">
                                                                                 <button id="btnCerrarModal" class="btn-block btn-lg btn-secondary" data-dismiss="modal" onclick="LlenarTablaEquipos()">CERRAR</button>
                                                                             </div>
                                                                         </div>
                                                                     </div>
+                                                                    
                                                                     <div class="row">
                                                                         <div class="col-md-12">
                                                                             <table id="tblImagenes" class="table table-bordered table-striped">
                                                                                 <thead>
                                                                                     <tr>
+                                                                                        <th>Id Imagen</th>
+                                                                                        <th>Equipo</th>
                                                                                         <th>Imagen</th>
-                                                                                        <th>Nombre imagen</th>
+                                                                                        <th>Código equipo</th>
                                                                                     </tr>
                                                                                 </thead>
                                                                             </table>
@@ -141,7 +142,7 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="modal-footer">
-                                                                    <div id="dvMensajeTel" class=""></div>
+                                                                    <div id="dvMensajet" class=""></div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -182,7 +183,7 @@
     <script src="../Scripts/dataTables.bootstrap4.min.js"></script>
     <script src="Scripts/Comunes/Comunes.js"></script>
     <script src="Scripts/Comunes/CRUD.js"></script>
-    <script src="Scripts/Equipos.js"></script>
     <script src="Scripts/Menu.js"></script>
+    <script src="Scripts/Equipos.js"></script>
 </body>
 </html>
