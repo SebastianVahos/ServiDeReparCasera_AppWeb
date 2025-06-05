@@ -98,6 +98,7 @@ namespace Servicios.Clases
                    where E.CodigoEquipo == CodigoEquipo
                    select new
                    {
+                       IdImagen = I.IdImagen,
                        codEquipo = E.CodigoEquipo,
                        Equipo = E.Nombre,
                        Imagen = I.NombreImagen
@@ -108,7 +109,7 @@ namespace Servicios.Clases
         {
             try
             {
-                var IdImagen = DBServi.ImagenesEquipoes.Where(c => c.CodigoEquipo == idImagen).FirstOrDefault();
+                var IdImagen = DBServi.ImagenesEquipoes.FirstOrDefault(c => c.IdImagen == idImagen);
                 DBServi.ImagenesEquipoes.Remove(IdImagen);
                 DBServi.SaveChanges();
                 return "Se elimino la informacion en la base de datos";
@@ -128,6 +129,33 @@ namespace Servicios.Clases
                        Codigo = E.CodigoEquipo,
                        Nombre = E.Nombre
                    };
+        }
+
+        public IQueryable LlenarComboImg(int codEquipo)
+        {
+            return from I in DBServi.Set<ImagenesEquipo>()
+                   join E in DBServi.Set<Equipo>() 
+                   on I.CodigoEquipo equals E.CodigoEquipo
+                   where I.CodigoEquipo == codEquipo
+                   select new
+                   {
+                       Codigo = I.IdImagen,
+                       Nombre = I.NombreImagen
+                   };
+        }
+        public string Eliminar()
+        {
+            try
+            {
+                Equipo equi = DBServi.Equipoes.FirstOrDefault(e => e.CodigoEquipo == equipo.CodigoEquipo);
+                DBServi.Equipoes.Remove(equi);
+                DBServi.SaveChanges();
+                return "Se eliminó el equipo con código: " + equipo.CodigoEquipo;
+            }
+            catch (Exception ex)
+            {
+                return "No se pudo eliminar el equipo: " + ex.Message;
+            }
         }
     }
 }
