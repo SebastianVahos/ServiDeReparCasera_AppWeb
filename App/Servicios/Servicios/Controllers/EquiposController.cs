@@ -75,5 +75,14 @@ namespace Servicios.Controllers
             clsEquipo equipo = new clsEquipo();
             return equipo.LlenarCombo();
         }
+
+        [HttpDelete]
+        [Route("EliminarEquipo")]
+        public string Eliminar([FromBody] Equipo equipo)
+        {
+            clsEquipo equi = new clsEquipo();
+            equi.equipo = equipo;
+            return equi.Eliminar();
+        }
     }
 }

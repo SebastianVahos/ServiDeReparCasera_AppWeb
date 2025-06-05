@@ -129,5 +129,19 @@ namespace Servicios.Clases
                        Nombre = E.Nombre
                    };
         }
+        public string Eliminar()
+        {
+            try
+            {
+                Equipo equi = DBServi.Equipoes.FirstOrDefault(e => e.CodigoEquipo == equipo.CodigoEquipo);
+                DBServi.Equipoes.Remove(equi);
+                DBServi.SaveChanges();
+                return "Se eliminó el equipo con código: " + equipo.CodigoEquipo;
+            }
+            catch (Exception ex)
+            {
+                return "No se pudo eliminar el equipo: " + ex.Message;
+            }
+        }
     }
 }
